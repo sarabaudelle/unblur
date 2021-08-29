@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face { font-family: Life; src: url('life.otf'); } 
+@font-face { font-family: Swiss; src: url('swiss.otf'); } 
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #696c4b;
+    color: #eae8e7;
+    line-height: 1.6;
+}
+
+
+.container-fluid {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: life, serif; 
+}
+
+
+h2 span {
+    font-family: swiss, sans-serif;
+    text-transform: uppercase;
+}
